@@ -16,6 +16,7 @@ body{
 
 
 .header-main{
+    padding: 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,7 +37,7 @@ body{
     display: inline;
     word-spacing: 20px;
     float:right;
-    padding-right: 250px;
+    padding-right: 62px;
 
 }
 
@@ -47,6 +48,7 @@ body{
 
 .main-content{
    border-bottom:2px solid #fef9f4;
+   padding-top: 48px;
    padding-bottom: 48px;
    display: flex;
    flex-direction: row; 
@@ -64,7 +66,7 @@ body{
 .written-content1{
     font-family: 'Fredericka the Great', cursive;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 40px;
     color:#fef9f4
 }
 
