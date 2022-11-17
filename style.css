@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100% ;
+    background: linear-gradient(55deg, #c5adad 16.62%, #d9c2bf 85.61%)
+}
+
+
+.header-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:25px;
+    justify-content: space-around;
+}
+.header-sushi{
+    display: block;
+    padding-left: -18px;
+    height: 40px;
+}
+
+.header-menu{
+    font-family: 'Sarala', sans-serif;
+    color: #fef9f4;
+    font-weight: 450;
+    font-size: 18px;
+    display: inline;
+    word-spacing: 20px;
+    float:right;
+    padding-right: 250px;
+
+}
+
+.content{
+    margin-bottom: 50px;
+    border-top: 2px solid #fef9f4;
+}
+
+.main-content{
+   border-bottom:2px solid #fef9f4;
+   padding-bottom: 48px;
+   display: flex;
+   flex-direction: row; 
+   align-items: center;
+   justify-content: space-around;
+}
+
+.written-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.written-content1{
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color:#fef9f4
+}
+
+.written-content2{
+font-family: 'Sarala', sans-serif;
+color: #fef9f4;
+font-weight: 600;
+font-size: 25px;
+}
+
+.button-add{
+    background-color: #ecd6c4;
+    width: 150px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px #e2dcd6;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:#988c8c;
+}
+
+.button-add:hover{
+    background-color:#c4b4b2 ;
+}
+
+.ballebot{
+    height: 430px;
+}
+
+.secondary-content{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+    margin-top: 48px;
+}
+
+.secondary-content1{
+    font-family: 'Sarala', sans-serif;
+    color: #fef9f4;
+    font-size: 24px;
+    margin-bottom: 16px;
+
+}
+
+.paragraph{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #fef9f4;
+}
+
+.footer{
+    font-family: 'Sarala', sans-serif;
+    color:#fef9f4;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    border-top: 2px solid #fef9f4;
+    padding: 32px;
+    align-items: center;
+}
+
+/* link que ainda não foi visitado */
+a:link {
+    color: #fef9f4;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: rgb(221, 226, 221);
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #ecd6c4;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: #988c8c;
+ }
+
+
+
+
+.credits li{
+    display: flex;
+    flex-direction: row;
+}
+
