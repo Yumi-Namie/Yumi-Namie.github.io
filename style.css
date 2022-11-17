@@ -20,7 +20,7 @@ body{
     flex-direction: row;
     align-items: center;
     gap:25px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .header-sushi{
     display: block;
@@ -51,7 +51,7 @@ body{
    display: flex;
    flex-direction: row; 
    align-items: center;
-   justify-content: space-around;
+   justify-content: center;
 }
 
 .written-content{
@@ -64,7 +64,7 @@ body{
 .written-content1{
     font-family: 'Fredericka the Great', cursive;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 50px;
     color:#fef9f4
 }
 
@@ -93,7 +93,7 @@ font-size: 25px;
 }
 
 .ballebot{
-    height: 430px;
+    height: 260px;
 }
 
 .secondary-content{
